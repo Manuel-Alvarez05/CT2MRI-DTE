@@ -1,16 +1,3 @@
-"""
-main.py — Entry point for CT2MRI‑DTE
-
-This version is heavily commented to explain what each part does in plain English.
-It covers:
-- Reading command‑line arguments and YAML config
-- Merging CLI overrides with the YAML
-- Seeding for reproducibility
-- Deciding between CPU, single‑GPU, and multi‑GPU (DDP) execution
-- Launching the selected Runner to train or test
-
-Tip: Search for "WHY:" lines to understand the reasoning behind choices.
-"""
 
 import argparse
 import os
